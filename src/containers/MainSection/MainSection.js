@@ -20,7 +20,7 @@ class MainSection extends React.Component {
         this.handleScroll = this.handleScroll.bind(this);
     }
   
-    componentWillMount() {
+    componentDidMount() {
         this.loadUsers();
         this.scrollListener = window.addEventListener('scroll', (e) => {
             this.handleScroll(e)
