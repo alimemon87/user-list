@@ -1,0 +1,11 @@
+.user_list{
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+
+}

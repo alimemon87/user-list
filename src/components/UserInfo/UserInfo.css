@@ -1,0 +1,9 @@
+img{
+    border-radius: 50%
+}
+
+.heading{
+    position: absolute;
+    top:70px;
+    padding-left:20px;
+}
