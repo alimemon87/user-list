@@ -28,9 +28,9 @@ class MainSection extends React.Component {
     }
   
     loadUsers(){
-        this.setState({
+        /*this.setState({
             loading: true
-        });
+        });*/
         const {per,page,users} = this.state;
         const url = `https://reqres.in/api/users?per_page=${per}&page=${page}`
         axios
